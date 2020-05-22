@@ -4,7 +4,7 @@ import pandas as pd
 #Dlatego musimy zastosować poniższe:
 
 #wyswietlanie wszystkich wierszy:
-pd.set_option('display.max_rows', 10)
+pd.set_option('display.max_rows', None)
 #wyświetlenie wszystkich kolumn (ale kolumny nie wyswietlają się w jednym wierszu):
 pd.set_option('display.max_columns', None)
 #kolumny wyświetlają sie w jednym wierszu (ale długi tekst zostaje ucięty);
